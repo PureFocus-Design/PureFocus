@@ -7,12 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01EB44E9B0A01A0B21CCBDEC /* Pods_PureFocus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B814B137BD73ABD67E24B5F9 /* Pods_PureFocus.framework */; };
+		5D2CB47AA8533C69341C007A /* Pods_PureFocusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */; };
 		C50EDF2E1F4CEADC008749E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50EDF2D1F4CEADC008749E2 /* AppDelegate.swift */; };
-		C50EDF301F4CEADC008749E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50EDF2F1F4CEADC008749E2 /* ViewController.swift */; };
-		C50EDF331F4CEADC008749E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF311F4CEADC008749E2 /* Main.storyboard */; };
-		C50EDF351F4CEADC008749E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF341F4CEADC008749E2 /* Assets.xcassets */; };
 		C50EDF381F4CEADC008749E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF361F4CEADC008749E2 /* LaunchScreen.storyboard */; };
 		C50EDF431F4CEADC008749E2 /* PureFocusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50EDF421F4CEADC008749E2 /* PureFocusTests.swift */; };
+		C50EDF4E1F4CEC34008749E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF4D1F4CEC34008749E2 /* Assets.xcassets */; };
+		C50EDF501F4CEC3F008749E2 /* BeaconViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50EDF4F1F4CEC3F008749E2 /* BeaconViewController.swift */; };
+		C50EDF521F4CEC4B008749E2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C50EDF511F4CEC4B008749E2 /* MainViewController.swift */; };
+		C50EDF541F4CEC56008749E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF531F4CEC56008749E2 /* Main.storyboard */; };
+		C50EDF561F4CECAD008749E2 /* 911.png in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF551F4CECAD008749E2 /* 911.png */; };
+		C50EDF581F4CECBA008749E2 /* LOGO Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF571F4CECBA008749E2 /* LOGO Blue.png */; };
+		C598417F1F4CFBAE0010B31D /* Alamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598417E1F4CFBAE0010B31D /* Alamo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +32,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B94172C32B35DFE4E292D3C /* Pods-PureFocusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocusTests/Pods-PureFocusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		988A921D30E827DB23C1E366 /* Pods-PureFocusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocusTests/Pods-PureFocusTests.release.xcconfig"; sourceTree = "<group>"; };
+		B814B137BD73ABD67E24B5F9 /* Pods_PureFocus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureFocus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50EDF2A1F4CEADC008749E2 /* PureFocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureFocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50EDF2D1F4CEADC008749E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C50EDF2F1F4CEADC008749E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C50EDF321F4CEADC008749E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C50EDF341F4CEADC008749E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C50EDF371F4CEADC008749E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C50EDF391F4CEADC008749E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C50EDF3E1F4CEADC008749E2 /* PureFocusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PureFocusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C50EDF421F4CEADC008749E2 /* PureFocusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PureFocusTests.swift; sourceTree = "<group>"; };
 		C50EDF441F4CEADC008749E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C50EDF4D1F4CEC34008749E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Documents/PureFocus/PureFocus/Assets.xcassets; sourceTree = "<group>"; };
+		C50EDF4F1F4CEC3F008749E2 /* BeaconViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BeaconViewController.swift; path = ../../../Documents/PureFocus/PureFocus/BeaconViewController.swift; sourceTree = "<group>"; };
+		C50EDF511F4CEC4B008749E2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MainViewController.swift; path = ../../../Documents/PureFocus/PureFocus/MainViewController.swift; sourceTree = "<group>"; };
+		C50EDF531F4CEC56008749E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Documents/PureFocus/PureFocus/Main.storyboard; sourceTree = "<group>"; };
+		C50EDF551F4CECAD008749E2 /* 911.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 911.png; path = ../../../Documents/PureFocus/PureFocus/911.png; sourceTree = "<group>"; };
+		C50EDF571F4CECBA008749E2 /* LOGO Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO Blue.png"; path = "../../../Documents/PureFocus/PureFocus/LOGO Blue.png"; sourceTree = "<group>"; };
+		C598417E1F4CFBAE0010B31D /* Alamo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamo.swift; sourceTree = "<group>"; };
+		C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureFocusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0C7B58379C0E66DEFCC5C25 /* Pods-PureFocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus.debug.xcconfig"; sourceTree = "<group>"; };
+		F7DADA182936F0154F8BB83C /* Pods-PureFocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocus.release.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01EB44E9B0A01A0B21CCBDEC /* Pods_PureFocus.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D2CB47AA8533C69341C007A /* Pods_PureFocusTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0A3C0485CAF8B89F285422A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0C7B58379C0E66DEFCC5C25 /* Pods-PureFocus.debug.xcconfig */,
+				F7DADA182936F0154F8BB83C /* Pods-PureFocus.release.xcconfig */,
+				8B94172C32B35DFE4E292D3C /* Pods-PureFocusTests.debug.xcconfig */,
+				988A921D30E827DB23C1E366 /* Pods-PureFocusTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C50EDF211F4CEADC008749E2 = {
 			isa = PBXGroup;
 			children = (
 				C50EDF2C1F4CEADC008749E2 /* PureFocus */,
 				C50EDF411F4CEADC008749E2 /* PureFocusTests */,
 				C50EDF2B1F4CEADC008749E2 /* Products */,
+				A0A3C0485CAF8B89F285422A /* Pods */,
+				D273ABC9A158E717A2384771 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +109,14 @@
 			isa = PBXGroup;
 			children = (
 				C50EDF2D1F4CEADC008749E2 /* AppDelegate.swift */,
-				C50EDF2F1F4CEADC008749E2 /* ViewController.swift */,
-				C50EDF311F4CEADC008749E2 /* Main.storyboard */,
-				C50EDF341F4CEADC008749E2 /* Assets.xcassets */,
+				C50EDF4D1F4CEC34008749E2 /* Assets.xcassets */,
+				C50EDF4F1F4CEC3F008749E2 /* BeaconViewController.swift */,
+				C598417E1F4CFBAE0010B31D /* Alamo.swift */,
+				C50EDF511F4CEC4B008749E2 /* MainViewController.swift */,
 				C50EDF361F4CEADC008749E2 /* LaunchScreen.storyboard */,
+				C50EDF571F4CECBA008749E2 /* LOGO Blue.png */,
+				C50EDF551F4CECAD008749E2 /* 911.png */,
+				C50EDF531F4CEC56008749E2 /* Main.storyboard */,
 				C50EDF391F4CEADC008749E2 /* Info.plist */,
 			);
 			path = PureFocus;
@@ -96,6 +131,15 @@
 			path = PureFocusTests;
 			sourceTree = "<group>";
 		};
+		D273ABC9A158E717A2384771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B814B137BD73ABD67E24B5F9 /* Pods_PureFocus.framework */,
+				C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +147,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C50EDF471F4CEADC008749E2 /* Build configuration list for PBXNativeTarget "PureFocus" */;
 			buildPhases = (
+				7766E7028CECE54CFDF1E6B8 /* [CP] Check Pods Manifest.lock */,
 				C50EDF261F4CEADC008749E2 /* Sources */,
 				C50EDF271F4CEADC008749E2 /* Frameworks */,
 				C50EDF281F4CEADC008749E2 /* Resources */,
+				1FFBED266AD081C72664F501 /* [CP] Embed Pods Frameworks */,
+				3923867D329232927EAE76DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +167,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C50EDF4A1F4CEADC008749E2 /* Build configuration list for PBXNativeTarget "PureFocusTests" */;
 			buildPhases = (
+				014017EB8A09B013736E2727 /* [CP] Check Pods Manifest.lock */,
 				C50EDF3A1F4CEADC008749E2 /* Sources */,
 				C50EDF3B1F4CEADC008749E2 /* Frameworks */,
 				C50EDF3C1F4CEADC008749E2 /* Resources */,
+				EAFA44BF4875370BB631A4C8 /* [CP] Embed Pods Frameworks */,
+				E6CE67F62B7E550EED376612 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +231,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C50EDF581F4CECBA008749E2 /* LOGO Blue.png in Resources */,
+				C50EDF541F4CEC56008749E2 /* Main.storyboard in Resources */,
+				C50EDF561F4CECAD008749E2 /* 911.png in Resources */,
+				C50EDF4E1F4CEC34008749E2 /* Assets.xcassets in Resources */,
 				C50EDF381F4CEADC008749E2 /* LaunchScreen.storyboard in Resources */,
-				C50EDF351F4CEADC008749E2 /* Assets.xcassets in Resources */,
-				C50EDF331F4CEADC008749E2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,12 +248,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		014017EB8A09B013736E2727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1FFBED266AD081C72664F501 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3923867D329232927EAE76DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7766E7028CECE54CFDF1E6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E6CE67F62B7E550EED376612 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureFocusTests/Pods-PureFocusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFA44BF4875370BB631A4C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureFocusTests/Pods-PureFocusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C50EDF261F4CEADC008749E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C50EDF301F4CEADC008749E2 /* ViewController.swift in Sources */,
+				C598417F1F4CFBAE0010B31D /* Alamo.swift in Sources */,
+				C50EDF521F4CEC4B008749E2 /* MainViewController.swift in Sources */,
+				C50EDF501F4CEC3F008749E2 /* BeaconViewController.swift in Sources */,
 				C50EDF2E1F4CEADC008749E2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,14 +372,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C50EDF311F4CEADC008749E2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C50EDF321F4CEADC008749E2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C50EDF361F4CEADC008749E2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -341,6 +480,7 @@
 		};
 		C50EDF481F4CEADC008749E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0C7B58379C0E66DEFCC5C25 /* Pods-PureFocus.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 35WYFGA6T2;
@@ -354,6 +494,7 @@
 		};
 		C50EDF491F4CEADC008749E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7DADA182936F0154F8BB83C /* Pods-PureFocus.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 35WYFGA6T2;
@@ -367,6 +508,7 @@
 		};
 		C50EDF4B1F4CEADC008749E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B94172C32B35DFE4E292D3C /* Pods-PureFocusTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +524,7 @@
 		};
 		C50EDF4C1F4CEADC008749E2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988A921D30E827DB23C1E366 /* Pods-PureFocusTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -414,6 +557,7 @@
 				C50EDF491F4CEADC008749E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C50EDF4A1F4CEADC008749E2 /* Build configuration list for PBXNativeTarget "PureFocusTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +566,7 @@
 				C50EDF4C1F4CEADC008749E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
