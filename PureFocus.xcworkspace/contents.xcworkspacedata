@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:PureFocus/mdmCheckIn.plist">
+   </FileRef>
+   <FileRef
+      location = "group:mdmCommand.plist">
+   </FileRef>
+   <FileRef
       location = "group:PureFocus.xcodeproj">
    </FileRef>
    <FileRef

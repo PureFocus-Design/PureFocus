@@ -29,6 +29,20 @@
 			remoteGlobalIDString = C50EDF291F4CEADC008749E2;
 			remoteInfo = PureFocus;
 		};
+		C59841851F4DC5270010B31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 917B68861DD0F4FD00AE5629;
+			remoteInfo = iOSCSRSwift;
+		};
+		C59841871F4DC5270010B31D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 917B688F1DD0F4FD00AE5629;
+			remoteInfo = iOSCSRSwiftTests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +63,7 @@
 		C50EDF551F4CECAD008749E2 /* 911.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 911.png; path = ../../../Documents/PureFocus/PureFocus/911.png; sourceTree = "<group>"; };
 		C50EDF571F4CECBA008749E2 /* LOGO Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO Blue.png"; path = "../../../Documents/PureFocus/PureFocus/LOGO Blue.png"; sourceTree = "<group>"; };
 		C598417E1F4CFBAE0010B31D /* Alamo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamo.swift; sourceTree = "<group>"; };
+		C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSCSRSwift.xcodeproj; path = ../iOSCSRSwift/iOSCSRSwift.xcodeproj; sourceTree = "<group>"; };
 		C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureFocusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0C7B58379C0E66DEFCC5C25 /* Pods-PureFocus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus.debug.xcconfig"; sourceTree = "<group>"; };
 		F7DADA182936F0154F8BB83C /* Pods-PureFocus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureFocus.release.xcconfig"; path = "Pods/Target Support Files/Pods-PureFocus/Pods-PureFocus.release.xcconfig"; sourceTree = "<group>"; };
@@ -131,9 +146,19 @@
 			path = PureFocusTests;
 			sourceTree = "<group>";
 		};
+		C59841811F4DC5270010B31D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C59841861F4DC5270010B31D /* iOSCSRSwift.framework */,
+				C59841881F4DC5270010B31D /* iOSCSRSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D273ABC9A158E717A2384771 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */,
 				B814B137BD73ABD67E24B5F9 /* Pods_PureFocus.framework */,
 				C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */,
 			);
@@ -218,6 +243,12 @@
 			mainGroup = C50EDF211F4CEADC008749E2;
 			productRefGroup = C50EDF2B1F4CEADC008749E2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C59841811F4DC5270010B31D /* Products */;
+					ProjectRef = C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C50EDF291F4CEADC008749E2 /* PureFocus */,
@@ -225,6 +256,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C59841861F4DC5270010B31D /* iOSCSRSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = iOSCSRSwift.framework;
+			remoteRef = C59841851F4DC5270010B31D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C59841881F4DC5270010B31D /* iOSCSRSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = iOSCSRSwiftTests.xctest;
+			remoteRef = C59841871F4DC5270010B31D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C50EDF281F4CEADC008749E2 /* Resources */ = {

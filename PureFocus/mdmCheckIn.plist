@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PushCertRequestCSR</key>
+	<string>Base64 encoded CSR</string>
+	<key>PushCertCertificateChain</key>
+	<string>4 different Certs- Root Cert, MDM signing cert, intermediate cert, apple cert</string>
+	<key>PushCertSignature</key>
+	<string>Sign the CSR with SHA1WithRSA and MDM-signing certs private key -&gt; DER -&gt; Base64 encode</string>
+</dict>
+</plist>

@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "00A3A8E252D0289280948318814AF4361471CCF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "00A3A8E252D0289280948318814AF4361471CCF2" : 9223372036854775807,
+    "7367AFD296C618EE540D52E1468734BECC49E829" : 9223372036854775807,
+    "99DD6E212E4808020B4119BC405F77F5152DBD04" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48014E80-D391-4F8C-8FB9-1C361007780C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "00A3A8E252D0289280948318814AF4361471CCF2" : "PureFocus\/",
+    "7367AFD296C618EE540D52E1468734BECC49E829" : "..\/Documents\/PureFocus",
+    "99DD6E212E4808020B4119BC405F77F5152DBD04" : "iOSCSRSwift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PureFocus",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PureFocus.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ryan2clw\/PureFocus.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "00A3A8E252D0289280948318814AF4361471CCF2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ryan2clw\/PureFocus",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7367AFD296C618EE540D52E1468734BECC49E829"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cbaker6\/iOSCSRSwift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99DD6E212E4808020B4119BC405F77F5152DBD04"
+    }
+  ]
+}
