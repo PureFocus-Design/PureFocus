@@ -25,12 +25,12 @@ class AlamoNetwork{
     }
     
     func singleAppModeLock(enable: Bool){
+        print("Calling single app mode.")
         let headers = ["Content-Type":"application/x-www-form-urlencoded",
                        "Authorization":"Basic alBSaGxXMWdCT3o5cEtBaGxRWm01NHBCcHUzbmdhSTJaeDJOV0NqQTd1Qkc2N0daWXlxSDNMbHRRalF5Ukl5Qzo="]
         if enable{
             print("Sending API call to lock device.")
             let assignProfileToGroup = "https://a.simplemdm.com/api/v1/custom_configuration_profiles/1241/device_groups/32489"
-
             let req = Alamofire.request(assignProfileToGroup,
                                         method: .post, parameters: [:],
                                         encoding: "", headers: headers)
