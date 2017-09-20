@@ -24,6 +24,36 @@ class AlamoNetwork{
         
     }
     
+    func singleAppModeLock(enable: Bool){
+        let headers = ["Content-Type":"application/x-www-form-urlencoded",
+                       "Authorization":"Basic alBSaGxXMWdCT3o5cEtBaGxRWm01NHBCcHUzbmdhSTJaeDJOV0NqQTd1Qkc2N0daWXlxSDNMbHRRalF5Ukl5Qzo="]
+        if enable{
+            print("Sending API call to lock device.")
+            let assignProfileToGroup = "https://a.simplemdm.com/api/v1/custom_configuration_profiles/1241/device_groups/32489"
+
+            let req = Alamofire.request(assignProfileToGroup,
+                                        method: .post, parameters: [:],
+                                        encoding: "", headers: headers)
+            print(req)
+        }else{
+            let removeProfile = "https://a.simplemdm.com/api/v1/custom_configuration_profiles/1241/device_groups/32489"
+            let req = Alamofire.request(removeProfile,
+                                        method: .delete, parameters: [:],
+                                        encoding: "", headers: headers)
+            print("Sending API call to unlock device.")
+            print(req)
+        }
+    }
+    
+    
+}
+extension String: ParameterEncoding {
+    
+    public func encode(_ urlRequest: URLRequestConvertible, with parameters: Parameters?) throws -> URLRequest {
+        var request = try urlRequest.asURLRequest()
+        request.httpBody = data(using: .utf8, allowLossyConversion: false)
+        return request
+    }
     
 }
 
