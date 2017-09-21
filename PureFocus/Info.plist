@@ -35,6 +35,7 @@
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
+		<string>bluetooth-central</string>
 		<string>fetch</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
