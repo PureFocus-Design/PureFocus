@@ -18,6 +18,8 @@
 		C50EDF541F4CEC56008749E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF531F4CEC56008749E2 /* Main.storyboard */; };
 		C50EDF561F4CECAD008749E2 /* 911.png in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF551F4CECAD008749E2 /* 911.png */; };
 		C50EDF581F4CECBA008749E2 /* LOGO Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = C50EDF571F4CECBA008749E2 /* LOGO Blue.png */; };
+		C5617A7C1F748507001AA52B /* mdmCheckIn.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5617A7B1F748507001AA52B /* mdmCheckIn.plist */; };
+		C5617A801F748513001AA52B /* mdmCommand.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5617A7F1F748513001AA52B /* mdmCommand.plist */; };
 		C598417F1F4CFBAE0010B31D /* Alamo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C598417E1F4CFBAE0010B31D /* Alamo.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,8 @@
 		C50EDF531F4CEC56008749E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../Documents/PureFocus/PureFocus/Main.storyboard; sourceTree = "<group>"; };
 		C50EDF551F4CECAD008749E2 /* 911.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 911.png; path = ../../../Documents/PureFocus/PureFocus/911.png; sourceTree = "<group>"; };
 		C50EDF571F4CECBA008749E2 /* LOGO Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LOGO Blue.png"; path = "../../../Documents/PureFocus/PureFocus/LOGO Blue.png"; sourceTree = "<group>"; };
+		C5617A7B1F748507001AA52B /* mdmCheckIn.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mdmCheckIn.plist; sourceTree = "<group>"; };
+		C5617A7F1F748513001AA52B /* mdmCommand.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mdmCommand.plist; sourceTree = "<group>"; };
 		C598417E1F4CFBAE0010B31D /* Alamo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alamo.swift; sourceTree = "<group>"; };
 		C59841801F4DC5270010B31D /* iOSCSRSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = iOSCSRSwift.xcodeproj; path = ../iOSCSRSwift/iOSCSRSwift.xcodeproj; sourceTree = "<group>"; };
 		C6B59FDA513B4EEC1002049E /* Pods_PureFocusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureFocusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -133,6 +137,8 @@
 				C50EDF551F4CECAD008749E2 /* 911.png */,
 				C50EDF531F4CEC56008749E2 /* Main.storyboard */,
 				C50EDF391F4CEADC008749E2 /* Info.plist */,
+				C5617A7F1F748513001AA52B /* mdmCommand.plist */,
+				C5617A7B1F748507001AA52B /* mdmCheckIn.plist */,
 			);
 			path = PureFocus;
 			sourceTree = "<group>";
@@ -284,6 +290,8 @@
 				C50EDF561F4CECAD008749E2 /* 911.png in Resources */,
 				C50EDF4E1F4CEC34008749E2 /* Assets.xcassets in Resources */,
 				C50EDF381F4CEADC008749E2 /* LaunchScreen.storyboard in Resources */,
+				C5617A801F748513001AA52B /* mdmCommand.plist in Resources */,
+				C5617A7C1F748507001AA52B /* mdmCheckIn.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

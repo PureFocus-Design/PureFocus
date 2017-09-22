@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CommandUUID</key>
+	<string>9F09D114-BCFD-42AD-A974-371AA7D6256E</string>
+	<key>Command</key>
+	<string>Single App Mode</string>
+	<key>appCanEnterAutonomous</key>
+	<array>
+		<string>bullShitGoesHere</string>
+	</array>
+</dict>
+</plist>
